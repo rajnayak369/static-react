@@ -2,7 +2,7 @@ function MainContent() {
     return (
         <main>
             <div className="main--div">
-                <h1 className="main--title">Welcome to Static React !!</h1>
+                <h1 className="main--title">Welcome to Static React !!!</h1>
                 <ul className="main--facts">
                     <li>Was first released in 2013</li>
                     <li>Was originally created by Jordan Walke</li>
