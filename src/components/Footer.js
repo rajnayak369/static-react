@@ -13,7 +13,7 @@ function Footer() {
                     <span>g.sairajnaik@gmail.com</span>
                 </a>
              
-                <a href="https://www.linkedin.com/in/your-profile" target="_blank" className="footer-link">
+                <a href="https://www.linkedin.com/in/sairaj-naik-08713723b/" target="_blank" className="footer-link">
                     <FontAwesomeIcon icon={faLinkedin} className="footer-icon"/>
                     <span>LinkedIn</span>
                 </a>

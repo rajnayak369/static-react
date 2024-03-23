@@ -10,12 +10,19 @@ nav {
   background-color: #21222A;
   height: 70px;
   padding: 20px 25px;
+  justify-content: space-around;
+}
+
+.nav-logo{
+  display: flex;
+  align-items: center;
+
 }
 
 .nav--logo_text {
-  margin-right: auto;
   color: #61DAFB;
   font-size: 28px;
+  letter-spacing: 2px; /* Adjust the value as needed */
 }
 
 .nav--title {
@@ -33,6 +40,12 @@ nav {
   margin-right: 10px;
   color: #DEEBF8;
 }
+
+.li-link{
+  margin-right: 10px;
+  color: #DEEBF8;
+}
+
 
 main {
   padding: 57px 27px;
@@ -52,11 +65,16 @@ main {
 
 .main--facts {
   margin-top: 30px;
-  max-width: 400px;
+  max-width: 600px;
 }
 
 .main--facts > li {
   padding-block: 10px;
+}
+
+.main--facts > li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
 }
 
 footer {
