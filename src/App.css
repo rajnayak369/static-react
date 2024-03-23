@@ -12,19 +12,7 @@ nav {
   padding: 30px 25px;
   justify-content: space-around;
 }
-@media only screen and (max-width: 600px) {
-  nav {
-    flex-direction: column; /* Stack items vertically */
-    
-  }
-  .main--facts {
-    max-width: 100%;
-  }
-  footer {
-    flex-direction: column; /* Stack items vertically */
-  }
-  
-}
+
 .nav-logo{
   display: flex;
   align-items: center;
@@ -117,5 +105,19 @@ footer {
 
 .footer-icon {
   margin-right: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    flex-direction: column; /* Stack items vertically */
+    
+  }
+  .main--facts {
+    max-width: 100%;
+  }
+  footer {
+    flex-direction: column; /* Stack items vertically */
+  }
+  
 }
 
