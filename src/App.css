@@ -9,10 +9,22 @@ nav {
   align-items: center;
   background-color: #21222A;
   height: 70px;
-  padding: 20px 25px;
+  padding: 30px 25px;
   justify-content: space-around;
 }
-
+@media only screen and (max-width: 600px) {
+  nav {
+    flex-direction: column; /* Stack items vertically */
+    
+  }
+  .main--facts {
+    max-width: 100%;
+  }
+  footer {
+    flex-direction: column; /* Stack items vertically */
+  }
+  
+}
 .nav-logo{
   display: flex;
   align-items: center;
