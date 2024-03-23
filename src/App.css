@@ -16,7 +16,6 @@ nav {
 .nav-logo{
   display: flex;
   align-items: center;
-
 }
 
 .nav--logo_text {
@@ -26,6 +25,7 @@ nav {
 }
 
 .nav--title {
+  margin: 0;
   color: #DEEBF8;
   font-weight: 600;
 }
